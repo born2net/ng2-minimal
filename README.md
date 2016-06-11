@@ -1,4 +1,4 @@
-# Angular 2 JumpStart with TypeScript
+# Angular 2 JumpStart with TypeScript and new Router
 
 The goal of this jumpstart app is to provide
 a simple way to get started with Angular 2 while also showing several key Angular 2 features. The sample
@@ -9,6 +9,7 @@ screenshots from the app:
 
 ## Angular 2 Concepts Covered
 
+* new Router
 * TypeScript version that relies on classes and modules
 * Modules are loaded with System.js
 * Defining routes (including child routes)
