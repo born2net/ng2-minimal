@@ -23,3 +23,6 @@ For router tutorial: http://victorsavkin.com/post/145672529346/angular-router
 1. Run `npm install` to install app dependencies
 2. Run `npm start` in a separate terminal window to build the TypeScript, watch for changes and launch the web server
 
+## Want to learn more Angular2?
+visit: https://github.com/born2net/ng2Boilerplate
+
