@@ -8,6 +8,8 @@ Simply clone the project or download and extract the .zip to get started
 
 ## Angular 2 Concepts Covered
 
+For router tutorial: http://victorsavkin.com/post/145672529346/angular-router
+
 * New Router
 * TypeScript version that relies on classes and modules
 * Modules are loaded with System.js
