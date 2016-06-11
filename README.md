@@ -11,7 +11,7 @@ Simply clone the project or download and extract the .zip to get started
 For router tutorial: http://victorsavkin.com/post/145672529346/angular-router
 
 * New Router
-* TypeScript version that relies on classes and modules
+* TypeScript (must use 1.9+)
 * Modules are loaded with System.js
 * Defining routes (including child routes)
 * Using Custom Components
