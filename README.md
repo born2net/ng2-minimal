@@ -7,16 +7,6 @@ relies on System.js to load TypeScript modules and the required scripts used in 
 Simply clone the project or download and extract the .zip to get started. Here are a few
 screenshots from the app:
 
-<img width="500" src="src/images/screenshots/cards.png" border="0" />
-
-<br />
-
-<img width="500" src="src/images/screenshots/grid.png" border="0" />
-
-<br />
-
-<img width="500" src="src/images/screenshots/orders.png" border="0" />
-
 ## Angular 2 Concepts Covered
 
 * TypeScript version that relies on classes and modules

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({ 
   moduleId: module.id,
   selector: 'app-container',
-  template: `<h1>test 123</h1>`
+  template: `<h1>test CCC</h1>`
 })
 
 export class AppComponent {
