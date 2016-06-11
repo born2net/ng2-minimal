@@ -6,9 +6,6 @@ import "rxjs/add/operator/mergeMap";
 import "rxjs/add/observable/of";
 import "rxjs/add/operator/do";
 
-// Extend Observable throughout the app
-
 bootstrap(AppComponent, [
     APP_ROUTER_PROVIDERS
-])
-    .catch(err => console.error(err));
+]).catch(err => console.error(err));
