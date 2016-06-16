@@ -73,7 +73,7 @@ export class CrisisDetailComponent implements OnInit, OnDestroy {
     // Pass along the hero id if available
     // so that the CrisisListComponent can select that hero.
     // Add a totally useless `foo` parameter for kicks.
-    this.router.navigate(['/crisis-center', { id: crisisId, foo: 'foo' }], { relativeTo: this.route });
+    this.router.navigate(['/']);
   }
 
   canDeactivate(): Observable<boolean> | boolean {

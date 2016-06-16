@@ -27,8 +27,9 @@ export class CrisisListComponent implements OnInit, OnDestroy {
   isSelected(crisis: Crisis) { return crisis.id === this.selectedId; }
 
   ngOnInit() {
-    this.sub = this.route
-      .params
+    this.sub = this.router
+		.routerState
+		.queryParams
       .subscribe(params => {
         this.selectedId = +params['id'];
         this.service.getCrises()
@@ -42,7 +43,7 @@ export class CrisisListComponent implements OnInit, OnDestroy {
 
   onSelect(crisis: Crisis) {
     // Navigate with absolute link
-     this.router.navigate(['/crisis-center', crisis.id]);
+     this.router.navigate(['/', crisis.id]);
   }
 }
 
