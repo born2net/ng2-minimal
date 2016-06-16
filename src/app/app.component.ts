@@ -13,7 +13,7 @@ import {HeroService} from "./heroes/hero.service";
     directives: [ROUTER_DIRECTIVES],
     template: `<h1>New ng2 Router</h1>
                 <nav>
-                  <a [routerLink]="['/crisis-center']">Crisis Center</a>
+                  <a [routerLink]="['/']">Crisis Center</a>
                   <a [routerLink]="['/heroes']">Heroes</a>
                 </nav>
                 <router-outlet></router-outlet>
