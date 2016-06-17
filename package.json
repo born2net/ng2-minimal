@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "npm run typings install",
     "build": "tsc",
-    "build:w": "tsc --watch",
+    "build:w": "tsc --watch --sourceMap",
     "bundle": "node bundle.js",
     "bundle:prod": "node bundle.js --prod",
     "lite": "lite-server",

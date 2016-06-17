@@ -26,3 +26,6 @@ For router tutorial: http://victorsavkin.com/post/145672529346/angular-router
 ## Want to learn more Angular2?
 visit: https://github.com/born2net/ng2Boilerplate
 
+## Special thanks to DanWahlin
+the project is based on https://github.com/DanWahlin/Angular2-JumpStart
+
